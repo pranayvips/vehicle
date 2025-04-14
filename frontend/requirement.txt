@@ -1,0 +1,6 @@
+first install node
+then open this frontend folder and write
+-> npm init
+-> npm install
+
+all set ready to run the frontend

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.862);
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid darkgrey;
+    user-select: none;
+    font-family: "Monteserrat",system-ui;
+    padding-right: 30px;
+    z-index: 50;
+}
+
+header .header-title:hover{
+    transform: scale(.9);
+}
+header .header-title{
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    color: var(--text-color);
+    cursor: default;
+    transition: transform 1s;
+    img{
+        height: 50px;
+        /* background-color: var(--text-color); */
+        background-color: white;
+        padding: 10px;
+        border-radius: 4px;
+    }
+}
+header .header-links{
+    display: flex;
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    h2{
+        font-size: 16px;
+        margin-right: 20px;
+        padding: 5px 10px;
+        /* font-weight: normal; */
+        border-bottom: 2px solid transparent;
+        padding-bottom: 5px;
+        transition: border .5s,transform .6s ,color .5s;
+        cursor: pointer;
+        color: var(--text-color);
+        font-weight: normal;
+    }
+    i{
+        margin-right: 10px;
+    }
+    h2:hover{
+        color: dodgerblue;
+        border-color: dodgerblue;
+        transform: scale(0.95);
+    }
+    .active{
+        background-color: #000;
+        border-radius: 8px;
+        color: #fff;
+        border: none;
+        font-weight: bold;
+        /* border-color: #3b5bdb; */
+    }
+    .active:hover{
+        color: #e7f5ff;
+        transform: scale(1.02);
+    }
+}
+
+header button:hover{
+    background: linear-gradient(to right,#20c997,#12b886);
+    transform: scale(1.05);
+}
+header button{
+    background-color: #20c997;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: var(--bg-color);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color .6s,transform .5s;
+}

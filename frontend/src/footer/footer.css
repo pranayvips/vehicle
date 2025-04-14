@@ -1,0 +1,75 @@
+footer{
+    background-color: var(--text-color);
+    display: flex;
+    justify-content: space-between;
+    font-family: "Montserrat",system-ui;
+    padding: 25px;
+    h2,h1{
+        color: whitesmoke;
+        margin-bottom: 30px;
+    }
+    h1{
+        align-self: center;
+        justify-self: center;
+        margin-bottom: 0;
+        max-width: 15vw;
+    }
+}
+
+footer .footer-contact{
+    a,p,i{
+        color: lightslategray;
+    }
+    i{
+        cursor: pointer;
+    }
+    a{
+        text-decoration: none;
+    }
+    div{
+        display: flex;
+        column-gap: 15px;
+        margin-bottom: 10px;
+    }
+    .footer-links{
+        justify-content: space-between;
+        margin-top: 30px;
+        i{
+            font-size: 16px;
+        }
+    }
+}
+
+footer .footer-touch{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    h2{
+        margin-bottom: 15px;
+    }
+    textarea{
+        resize: none;
+        height: 80px;
+        padding: 10px;
+        font-size: 15px;
+        outline: none;
+        width: 20vw;
+        text-transform: capitalize;
+    }
+    input{
+        border: none;
+        font-size: 16px;
+        outline: none;
+        text-transform: capitalize;
+        padding: 10px 30px;
+    }
+    button{
+        border: none;
+        background-color: #37b24d;
+        padding: 10px 35px;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+    }
+}
