@@ -40,7 +40,6 @@ This project provides a comprehensive solution for **Vehicle Detection**, **Vehi
 ## 🚀 How to Use
 
 ### Run this command for frontend first
-```bash
 npm install axios@^1.8.4 boxicons@^2.1.4 chart.js@^4.4.8 leaflet@^1.9.4 leaflet-geosearch@^4.2.0 react@^19.0.0 react-chartjs-2@^5.3.0 react-dom@^19.0.0 react-leaflet@^5.0.0 react-router-dom@^7.5.0 socket.io-client@^4.8.1 swiper@^11.2.6
 
 ### 1. Clone the Repository
